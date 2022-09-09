@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Option_page">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="BorderLayout" hgap="5" vgap="5">
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none" title="menu"/>
+    <children>
+      <component id="fdb1f" class="javax.swing.JButton" binding="imageEncryptionButton" default-binding="true">
+        <constraints border-constraint="North"/>
+        <properties>
+          <background color="-10978373"/>
+          <text value="Image Encryption"/>
+        </properties>
+      </component>
+      <component id="83c94" class="javax.swing.JButton" binding="textEncryptionButton" default-binding="true">
+        <constraints border-constraint="Center"/>
+        <properties>
+          <background color="-10978433"/>
+          <text value="Text Encryption"/>
+        </properties>
+      </component>
+      <vspacer id="b70a2">
+        <constraints border-constraint="East"/>
+      </vspacer>
+      <vspacer id="261af">
+        <constraints border-constraint="Last"/>
+      </vspacer>
+      <hspacer id="54793">
+        <constraints border-constraint="South"/>
+      </hspacer>
+      <vspacer id="2b04d">
+        <constraints border-constraint="West"/>
+      </vspacer>
+    </children>
+  </grid>
+</form>
